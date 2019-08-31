@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import registerServiceWorker from './registerServiceWorker';
 import { createStore } from 'redux';
 import appReducers from './reducers/index';
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux';
 
 const store = createStore(
     appReducers,
@@ -13,7 +13,8 @@ const store = createStore(
 
 ReactDOM.render(
     <Provider store={store}>
-        <App/>
-    </Provider>
-    , document.getElementById('root'));
-serviceWorker.unregister();
+        <App />
+    </Provider>, 
+    document.getElementById('root')
+);
+registerServiceWorker();

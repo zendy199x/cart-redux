@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
     render() {
-        return(
+        return (
             <footer className="page-footer center-on-small-only">
                 <div className="container-fluid">
                     <div className="row">
@@ -93,7 +93,7 @@ class Footer extends Component {
                             <ul className="instagram-photos">
                                 <li>
                                     <div className="view overlay hm-white-slight z-depth-1">
-                                        <img className="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" alt="" />
+                                        <img className="img-fluid" src="" alt="" />
                                         <a>
                                             <div className="mask waves-light waves-effect waves-light"></div>
                                         </a>
@@ -101,7 +101,7 @@ class Footer extends Component {
                                 </li>
                                 <li>
                                     <div className="view overlay hm-white-slight z-depth-1">
-                                        <img className="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" alt="" />
+                                        <img className="img-fluid" src="" alt="" />
                                         <a>
                                             <div className="mask waves-light waves-effect waves-light"></div>
                                         </a>
@@ -109,7 +109,7 @@ class Footer extends Component {
                                 </li>
                                 <li>
                                     <div className="view overlay hm-white-slight z-depth-1">
-                                        <img className="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(19).jpg" alt="" />
+                                        <img className="img-fluid" src="" alt="" />
                                         <a>
                                             <div className="mask waves-light waves-effect waves-light"></div>
                                         </a>
@@ -117,7 +117,7 @@ class Footer extends Component {
                                 </li>
                                 <li>
                                     <div className="view overlay hm-white-slight z-depth-1">
-                                        <img className="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(16).jpg" alt="" />
+                                        <img className="img-fluid" src="" alt="" />
                                         <a>
                                             <div className="mask waves-light waves-effect waves-light"></div>
                                         </a>
@@ -125,7 +125,7 @@ class Footer extends Component {
                                 </li>
                                 <li>
                                     <div className="view overlay hm-white-slight z-depth-1">
-                                        <img className="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(5).jpg" alt="" />
+                                        <img className="img-fluid" src="" alt="" />
                                         <a>
                                             <div className="mask waves-light waves-effect waves-light"></div>
                                         </a>
@@ -133,7 +133,7 @@ class Footer extends Component {
                                 </li>
                                 <li>
                                     <div className="view overlay hm-white-slight z-depth-1">
-                                        <img className="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(18).jpg" alt="" />
+                                        <img className="img-fluid" src="" alt="" />
                                         <a>
                                             <div className="mask waves-light waves-effect waves-light"></div>
                                         </a>
@@ -141,7 +141,7 @@ class Footer extends Component {
                                 </li>
                                 <li>
                                     <div className="view overlay hm-white-slight z-depth-1">
-                                        <img className="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(15).jpg" alt="" />
+                                        <img className="img-fluid" src="" alt="" />
                                         <a>
                                             <div className="mask waves-light waves-effect waves-light"></div>
                                         </a>
@@ -149,7 +149,7 @@ class Footer extends Component {
                                 </li>
                                 <li>
                                     <div className="view overlay hm-white-slight z-depth-1">
-                                        <img className="img-fluid" src="http://mdbootstrap.com/img/Photos/Avatars/img%20(17).jpg" alt="" />
+                                        <img className="img-fluid" src="" alt="" />
                                         <a>
                                             <div className="mask waves-light waves-effect waves-light"></div>
                                         </a>
@@ -162,11 +162,11 @@ class Footer extends Component {
                 <div className="footer-copyright">
                     <div className="container-fluid">
                         © 2016 Copyright:
-                        <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+                    <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
                     </div>
                 </div>
             </footer>
-        )
+        );
     }
 }
 

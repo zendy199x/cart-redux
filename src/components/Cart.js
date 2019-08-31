@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Cart extends Component {
     render() {
         var { children } = this.props;
-        return(
+        return (
             <section className="section">
                 <div className="table-responsive">
                     <table className="table product-table">
@@ -23,7 +23,7 @@ class Cart extends Component {
                     </table>
                 </div>
             </section>
-        )
+        );
     }
 }
 

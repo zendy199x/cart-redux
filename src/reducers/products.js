@@ -1,36 +1,36 @@
 var initialState = [
     {
-        id: 1,
-        name: 'iPhone 7 Plus',
-        image: 'https://cdn.tgdd.vn/Products/Images/42/78124/iphone-7-plus-32gb-gold-600x600.jpg',
-        description: 'Sản phẩm do Apple Mỹ sản xuất',
-        price: 300,
-        inventory: 10,
-        rating: 4
+        id : 1,
+        name : 'Iphone 7 Plus',
+        image : 'https://images-na.ssl-images-amazon.com/images/I/51wcd%2Bz24TL._SX425_.jpg',
+        description : 'Sản phẩm do apple sản phẩm',
+        price : 500,
+        inventory : 10,
+        rating : 4
     },
     {
-        id: 2,
-        name: 'iPhone 8 Plus',
-        image: 'https://csmobiles.com/5791-large_default/apple-iphone-8-plus-4g-64gb-red.jpg',
-        description: 'Sản phẩm do Apple Trung Quốc sản xuất',
-        price: 400,
-        inventory: 15,
-        rating: 5
+        id : 2,
+        name : 'Samsung galaxy S7',
+        image : 'https://s7d2.scene7.com/is/image/SamsungUS/SMG930_gs7_102416?$product-details-jpg$',
+        description : 'Sản phẩm do samsung sản phẩm',
+        price : 400,
+        inventory : 15,
+        rating : 3
     },
     {
-        id: 3,
-        name: 'iPhone XS Max',
-        image: 'https://imgs.viettelstore.vn/images/Product/ProductImage/medium/Xs.jpg',
-        description: 'Sản phẩm do Apple Nhật Bản sản xuất',
-        price: 500,
-        inventory: 20,
-        rating: 4
+        id : 3,
+        name : 'Oppo F1s',
+        image : 'http://drop.ndtv.com/TECH/product_database/images/832016120148PM_635_oppo_f1s.jpeg',
+        description : 'Sản phẩm do china sản phẩm',
+        price : 450,
+        inventory : 5,
+        rating : 5
     }
 ];
 
 const products = (state = initialState, action) => {
-    switch(action.type) {
-        default: return [...state]
+    switch(action.type){
+        default : return [...state];
     }
 }
 

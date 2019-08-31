@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 
 class Header extends Component {
     render() {
-        return(
+        return (
             <header>
                 <ul id="slide-out" className="side-nav hidden custom-scrollbar sn-bg-2 ps ps--theme_default" data-ps-id="c27390a3-9efc-e0d8-197a-ab96d73a156a">
                     <li>
                         <div className="logo-wrapper waves-light waves-effect waves-light">
                             <a>
-                                <img src="http://mdbootstrap.com/img/logo/mdb-transparent.png" alt="" className="img-fluid flex-center" />
+                                <img src="" alt="" className="img-fluid flex-center" />
                             </a>
                         </div>
                     </li>
@@ -44,12 +44,12 @@ class Header extends Component {
                         </form>
                     </li>
                     <li>
-    
+
                         <ul className="collapsible collapsible-accordion">
                             <li>
                                 <a className="collapsible-header waves-effect arrow-r">
                                     <i className="fa fa-shopping-bag"></i> Product Page
-                                    <i className="fa fa-angle-down rotate-icon"></i>
+                                <i className="fa fa-angle-down rotate-icon"></i>
                                 </a>
                                 <div className="collapsible-body">
                                     <ul>
@@ -68,7 +68,7 @@ class Header extends Component {
                             <li className="active">
                                 <a className="collapsible-header waves-effect arrow-r active">
                                     <i className="fa fa-shopping-cart"></i> Cart Pages
-                                    <i className="fa fa-angle-down rotate-icon"></i>
+                                <i className="fa fa-angle-down rotate-icon"></i>
                                 </a>
                                 <div className="collapsible-body">
                                     <ul>
@@ -96,7 +96,7 @@ class Header extends Component {
                             <li>
                                 <a className="collapsible-header waves-effect arrow-r">
                                     <i className="fa fa-dashboard"></i> Homepages
-                                    <i className="fa fa-angle-down rotate-icon"></i>
+                                <i className="fa fa-angle-down rotate-icon"></i>
                                 </a>
                                 <div className="collapsible-body">
                                     <ul>
@@ -124,7 +124,7 @@ class Header extends Component {
                             <li>
                                 <a className="collapsible-header waves-effect arrow-r">
                                     <i className="fa fa-desktop"></i> Post Pages
-                                    <i className="fa fa-angle-down rotate-icon"></i>
+                                <i className="fa fa-angle-down rotate-icon"></i>
                                 </a>
                                 <div className="collapsible-body">
                                     <ul>
@@ -149,7 +149,7 @@ class Header extends Component {
                             <li>
                                 <a className="collapsible-header waves-effect arrow-r">
                                     <i className="fa fa-diamond"></i> Category Pages
-                                    <i className="fa fa-angle-down rotate-icon"></i>
+                                <i className="fa fa-angle-down rotate-icon"></i>
                                 </a>
                                 <div className="collapsible-body">
                                     <ul>
@@ -172,11 +172,11 @@ class Header extends Component {
                                 </div>
                             </li>
                         </ul>
-    
+
                     </li>
-    
+
                     <div className="sidenav-bg mask-strong"></div>
-    
+
                     <div className="ps__scrollbar-x-rail">
                         <div className="ps__scrollbar-x" tabIndex="0"></div>
                     </div>
@@ -184,15 +184,15 @@ class Header extends Component {
                         <div className="ps__scrollbar-y" tabIndex="0"></div>
                     </div>
                 </ul>
-    
+
                 <nav className="navbar fixed-top navbar-toggleable-md navbar-expand-lg navbar-dark scrolling-navbar double-nav">
-    
+
                     <div className="float-left">
                         <a data-activates="slide-out" className="button-collapse">
                             <i className="fa fa-bars"></i>
                         </a>
                     </div>
-    
+
                     <div className="breadcrumb-dn mr-auto">
                         <ol className="breadcrumb header-breadcrumb">
                             <li className="breadcrumb-item">
@@ -200,7 +200,7 @@ class Header extends Component {
                             </li>
                         </ol>
                     </div>
-    
+
                     <ul className="nav navbar-nav nav-flex-icons ml-auto">
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle waves-effect waves-light" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
@@ -213,11 +213,9 @@ class Header extends Component {
                             </div>
                         </li>
                     </ul>
-    
                 </nav>
-    
             </header>
-        )
+        );
     }
 }
 

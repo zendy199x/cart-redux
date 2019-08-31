@@ -4,16 +4,18 @@ import PropTypes from 'prop-types';
 import Message from './../components/Message';
 
 class MessageContainer extends Component {
+
     render() {
         var { message } = this.props;
-        return
-            <Message message={message}/>
+        return (
+            <Message message={message} />
         );
     }
+
 }
 
-MessageContainer.PropTypes = {
-    message: PropTypes.string.isRequired
+MessageContainer.propTypes = {
+    message : PropTypes.string.isRequired
 }
 
 const mapStateToProps = state => {
